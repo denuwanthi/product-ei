@@ -1163,9 +1163,9 @@
     </dependencyManagement>
 
     <scm>
-        <url>https://github.com/wso2/product-ei.git</url>
-        <developerConnection>scm:git:https://github.com/wso2/product-ei.git</developerConnection>
-        <connection>scm:git:https://github.com/wso2/product-ei.git</connection>
+        <url>https://github.com/denuwanthi/product-ei.git</url>
+        <developerConnection>scm:git:https://github.com/denuwanthi/product-ei.git</developerConnection>
+        <connection>scm:git:https://github.com/denuwanthi/product-ei.git</connection>
         <tag>HEAD</tag>
     </scm>
 
@@ -1183,6 +1183,9 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
                         <version>1.0-alpha-3</version>
+                        <configuration>
+                        <skip>true</skip>
+                        </configuration>
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
@@ -1390,6 +1393,7 @@
         <!-- Maven Plugin Version -->
         <maven.build.helper.plugin.version>1.8</maven.build.helper.plugin.version>
         <maven.xmlbeans-maven-plugin.plugin.version>2.3.3</maven.xmlbeans-maven-plugin.plugin.version>
+        <gpg.skip>true</gpg.skip>
     </properties>
 
     <pluginRepositories>
