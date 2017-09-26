@@ -1163,9 +1163,9 @@
     </dependencyManagement>
 
     <scm>
-        <url>https://github.com/wso2/product-ei.git</url>
-        <developerConnection>scm:git:https://github.com/wso2/product-ei.git</developerConnection>
-        <connection>scm:git:https://github.com/wso2/product-ei.git</connection>
+        <url>https://github.com/denuwanthi/product-ei.git</url>
+        <developerConnection>scm:git:https://github.com/denuwanthi/product-ei.git</developerConnection>
+        <connection>scm:git:https://github.com/denuwanthi/product-ei.git</connection>
         <tag>HEAD</tag>
     </scm>
 
@@ -1199,7 +1199,7 @@
     </profiles>
 
     <properties>
-
+        <gpg.skip>true</gpg.skip>
         <!--Product Version-->
 
         <product.ei.version>6.2.0-SNAPSHOT</product.ei.version>
